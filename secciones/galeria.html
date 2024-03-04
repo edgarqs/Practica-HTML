@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../styles/images/play-station.png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/galeria_style.css">
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Plug Gaming |  Galería</title>
+</head>
+
+<body>
+    <header>
+        <img id="imgHeader" src="../styles/images/logo.png" class="imgHeader">
+        <nav>
+            <div id="navegacion">
+                <ul>
+                    <li><a href="../index.html"><span class="material-icons">home</span>&nbsp;Inicio</a></li>
+                    <li><a class="navActivo" href="#"><span class="material-icons">image</span>&nbsp;Galería</a></li>
+                    <li><a href="enlaces.html"><span class="material-icons">link</span>&nbsp;Enlaces</a></li>
+                    <li><a href="noticias.html"><span class="material-icons">newspaper</span>&nbsp;Noticias</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section><br>
+        <h1>GALERIA DE IMÁGENES</h1><br>
+        <div id="imagen-grande">
+            <img src="" alt="" id="imgAmpliada">
+            <p id="textClose" onclick="textClose()"></p>
+        </div>
+        <table class="galeria">
+            <tr id="fila1">
+                <td><img src="../styles/images/galeria/1.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/2.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/3.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/inicio6.jpg" onclick="ampliarImg(this)"></td>
+            </tr>
+            <tr id="fila2">
+                <td><img src="../styles/images/galeria/5.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/6.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/7.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/8.jpg" onclick="ampliarImg(this)"></td>
+            </tr>
+            <tr id="fila3">
+                <td><img src="../styles/images/galeria/9.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/10.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/inicio7.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/galeria/12.jpg" onclick="ampliarImg(this)"></td>
+            </tr>
+            <tr id="fila4">
+                <td><img src="../styles/images/inicio1.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/inicio2.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/inicio3.jpg" onclick="ampliarImg(this)"></td>
+                <td><img src="../styles/images/inicio4.jpg" onclick="ampliarImg(this)"></td>
+            </tr>
+        </table>
+    </section><br><br><br><br>
+
+    <footer>
+        <p class="centrado"><a href="https://github.com/edgarqs/" target="_blank">Edgar Quirante Sánchez · 2022/23</a></p>
+    </footer>
+</body>
+
+</html>

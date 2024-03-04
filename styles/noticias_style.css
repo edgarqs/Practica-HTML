@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text');
+#noticias {
+    /*min-height: 80vh;*/
+    max-width: 900px;
+    background-color: rgb(194, 194, 194); 
+    margin: 0 auto;
+    background: lightgray;
+    padding: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    color: black;
+    height: 215px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    border-bottom: 2px solid #eee;
+    margin-top: -30px;
+}
+
+article h2 {
+    font-size: 25px;
+    font-family: 'Noticias Text';
+}
+
+p {
+    font-family: 'Curier New', Courier, monospace;
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.letra-derecha {
+    width: 800px;
+}
+
+.img-derecha {
+    height: 210px;
+    width: auto;
+    float: right;
+    margin-left: 15px;
+}
+
+.img-izquierda {
+    height: 210px;
+    width: auto;
+    float: left;
+    margin-right: 15px;
+}
